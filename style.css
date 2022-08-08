@@ -16,25 +16,48 @@ body {
 
 .home-page {
     height: 100vh;
+    display: grid;
+    grid-template-rows: 60px 1fr 30px;
+    background-color: #e0d1a9;
 }
 
 .navbar {
-    overflow: hidden;
-    background-color: #e0d1a9;
-    position: fixed;
-    top: 0;
-    width: 100%;
+    background-color: rgb(204, 158, 3, 0.7);
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-left: 50px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
 }
 
 .navbar a {
-    float: left;
-    display: block;
     color: #353a36;
-    text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
 }
 
+.main {
+    overflow-y: scroll;
+}
+
 .description {
-    margin-top: 30px;
+    position: relative;
+    height: 100%;
+}
+
+.description::before {    
+    content: "";
+    background-image: url('../resources/italianRestaurant.jpeg');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.5;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
