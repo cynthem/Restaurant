@@ -40,23 +40,21 @@ body {
 }
 
 .description {
+    background-image: url('../resources/italianRestaurant.jpeg');
+    background-size: cover;
     position: relative;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
 }
 
-.description::before {    
-    content: "";
-    background-image: url('../resources/italianRestaurant.jpeg');
-    background-size: cover;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.5;
+.bottom-section {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    margin: 5% 0;
 }
 
 .footer {
