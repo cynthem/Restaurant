@@ -50,6 +50,19 @@
          url('../resources/montserrat-font/montserrat-v25-latin-800italic.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../resources/montserrat-font/montserrat-v25-latin-800italic.svg#Montserrat') format('svg'); /* Legacy iOS */
   }
+  /* la-belle-aurore-regular - latin */
+@font-face {
+    font-family: 'La Belle Aurore';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../resources/laBell-font/la-belle-aurore-v16-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../resources/laBell-font/la-belle-aurore-v16-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../resources/laBell-font/la-belle-aurore-v16-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../resources/laBell-font/la-belle-aurore-v16-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../resources/laBell-font/la-belle-aurore-v16-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../resources/laBell-font/la-belle-aurore-v16-latin-regular.svg#LaBelleAurore') format('svg'); /* Legacy iOS */
+  }
 
 *,
 *::before,
