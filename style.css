@@ -57,6 +57,12 @@ body {
     margin: 5% 0;
 }
 
+.address,
+.hours {
+    display: flex;
+    gap: 20px;
+}
+
 .footer {
     display: flex;
     justify-content: center;
