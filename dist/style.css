@@ -119,8 +119,26 @@ body {
 }
 
 h1 {
+    padding: 2% 0;
     font-family: 'La Belle Aurore', serif;
     font-size: 150px;
+}
+
+.description-text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    background-color: rgb(53, 58, 54, 0.85);
+    color: #e0d1a9;
+    padding: 30px 20px 35px;
+    border-radius: 15px 35px;
+}
+
+h2 {
+    padding-top: 7%;
+    font-style: italic;
+    font-size: 28px;
 }
 
 .bottom-section {
