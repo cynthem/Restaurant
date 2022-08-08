@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html, 
+body {
+    height: 100%;
+}
+
+
+/* HOME PAGE */
+
+.home-page {
+    height: 100vh;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #e0d1a9;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #353a36;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.description {
+    margin-top: 30px;
+}
