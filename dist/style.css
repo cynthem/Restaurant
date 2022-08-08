@@ -42,6 +42,9 @@ body {
 .description {
     position: relative;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .description::before {    
@@ -60,4 +63,5 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: -1px -1px 5px rgba(0, 0, 0, 0.1);
 }
