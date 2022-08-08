@@ -61,8 +61,14 @@ body {
 .hours {
     display: flex;
     gap: 20px;
+    align-items: center;
 }
 
+.hours-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
 .footer {
     display: flex;
     justify-content: center;
