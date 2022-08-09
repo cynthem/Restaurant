@@ -5,7 +5,7 @@ function createNavBtns(cls, text) {
     return button;
 }
 
-function createNavBar(cls) {
+function createNavBar() {
     const navBar = document.createElement('div');
     navBar.classList.add('navbar');
     const homeBtn = createNavBtns('home-link', 'Home');
@@ -14,4 +14,19 @@ function createNavBar(cls) {
     navBar.appendChild(homeBtn);
     navBar.appendChild(menuBtn);
     navBar.appendChild(contactBtn);
+    return navBar;
+}
+
+function createMainSection() {
+    const mainSection = document.createElement('div');
+    mainSection.classList.add('main');
+    return mainSection;
+}
+
+function createFooter() {
+    const footer = document.createElement('div');
+    footer.classList.add('footer');
+    const paragraph = document.createElement('p');
+    paragraph.textContent = 'Tia Teresa © 2022 | All Rights Reserved';
+    const link = document.createElement('a');
 }
