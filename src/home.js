@@ -60,5 +60,12 @@ function setActiveBtn() {
 }
 
 function loadHome() {
-    
+    const content = document.getElementById('content');
+    const description = createDescription();
+    const information = createInformation();
+    setActiveBtn();
+    content.appendChild(description);
+    content.appendChild(information);
 }
+
+export default loadHome;
