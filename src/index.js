@@ -1,7 +1,7 @@
 import loadPage from './pageLoad';
 import loadHome from './home.js';
 //import loadMenu from './menu';
-//import loadContact from './contact';
+import loadContact from './contact';
 
 function navEvents() {
     const homeLink = document.querySelector('.home-link');
@@ -10,7 +10,7 @@ function navEvents() {
 
     homeLink.addEventListener('click', loadHome);
     //menuLink.addEventListener('click', loadMenu);
-    //contactLink.addEventListener('click', loadContact);
+    contactLink.addEventListener('click', loadContact);
 }
 
 function init() {
