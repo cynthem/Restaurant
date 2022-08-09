@@ -80,7 +80,7 @@ body {
 
 /* HOME PAGE */
 
-.home-page {
+.container {
     height: 100vh;
     display: grid;
     grid-template-rows: 60px 1fr 30px;
@@ -90,7 +90,7 @@ body {
 }
 
 .navbar {
-    background-color: rgb(204, 158, 3, 0.7);
+    background-color: rgb(204, 158, 3);
     display: flex;
     align-items: center;
     gap: 30px;
@@ -98,17 +98,23 @@ body {
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
 }
 
-.navbar a {
+.navbar button {
     color: #353a36;
     text-decoration: none;
+    border: none;
+    outline: none;
+    background-color: rgb(204, 158, 3);
+    font-family: 'Montserrat', serif;
+    font-size: 16px;
 }
 
-.navbar .active {
+button:active {
     text-decoration: underline;
 }
 
-.navbar > a:hover {
+.navbar > button:hover {
     color: white;
+    cursor: pointer;
 }
 
 .main {
