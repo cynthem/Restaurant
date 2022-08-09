@@ -3,9 +3,9 @@ import loadHome from './home.js';
 //import loadMenu from './menu';
 import loadContact from './contact';
 
-document.querySelector(`[type="submit"]`).addEventListener("click", () => {
-    document.querySelector("form").reset();
-  });
+document.querySelector(`[type='submit']`).addEventListener('click', () => {
+    document.querySelector('form').reset();
+});
 
 function navEvents() {
     const homeLink = document.querySelector('.home-link');
