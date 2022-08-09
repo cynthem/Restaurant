@@ -78,7 +78,7 @@ body {
 }
 
 
-/* HOME PAGE */
+/* ALL PAGES */
 
 .container {
     height: 100vh;
@@ -90,7 +90,7 @@ body {
 }
 
 .navbar {
-    background-color: rgb(204, 158, 3);
+    background-color: rgb(205, 171, 59);
     display: flex;
     align-items: center;
     gap: 30px;
@@ -103,7 +103,7 @@ body {
     text-decoration: none;
     border: none;
     outline: none;
-    background-color: rgb(204, 158, 3);
+    background-color: rgb(205, 171, 59);
     font-family: 'Montserrat', serif;
     font-size: 16px;
 }
@@ -120,6 +120,20 @@ body {
 .main {
     overflow-y: scroll;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -1px -1px 5px rgba(0, 0, 0, 0.1);
+}
+
+a > i:hover {
+    transform: scale(1.15);
+}
+
+
+/* HOME PAGE */
 
 .description {
     background-image: url('../resources/italianRestaurant.png');
@@ -181,13 +195,33 @@ h2 {
     gap: 5px;
 }
 
-.footer {
+
+/* CONTACT PAGE */
+
+.contact-main {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: -1px -1px 5px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: -70px;
 }
 
-a > i:hover {
-    transform: scale(1.15);
+.contact-title {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
+
+.contact-header {
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.spaghetti {
+    width: 500px;
+    margin: 0 auto;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+
