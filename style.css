@@ -319,6 +319,11 @@ textarea:focus {
     color: #e0d1a9;
 }
 
+input:valid,
+textarea:valid {
+    color: #e0d1a9;
+}
+
 span {
     position: absolute;
     left: 0;
