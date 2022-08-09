@@ -83,3 +83,5 @@ function loadContact() {
     setActiveBtn();
     main.appendChild(contactPage);
 }
+
+export default loadContact;
