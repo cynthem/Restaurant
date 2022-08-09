@@ -27,7 +27,7 @@ function createFooter() {
     const footer = document.createElement('div');
     footer.classList.add('footer');
     const paragraph = document.createElement('p');
-    paragraph.textContent = 'Tia Teresa © 2022 | All Rights Reserved';
+    paragraph.textContent = 'Zia Teresa © 2022 | All Rights Reserved';
     const link = document.createElement('a');
     link.setAttribute('href', 'https://github.com/doozles411');
     link.setAttribute('target', '_blank');
@@ -40,13 +40,16 @@ function createFooter() {
 }
 
 function loadPage() {
-    const content = document.getElementById('content');
+    const container = document.createElement('div');
+    container.classList.add('container');
     const navBar = createNavBar();
-    content.appendChild(navBar);
+    container.appendChild(navBar);
     const mainSection = createMainSection();
-    content.appendChild(mainSection);
+    container.appendChild(mainSection);
     const footer = createFooter();
-    content.appendChild(footer);
+    container.appendChild(footer);
+    const content = document.getElementById('content');
+    content.appendChild(container);
 }
 
 export default loadPage;
