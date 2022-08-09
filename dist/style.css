@@ -277,12 +277,13 @@ h2 {
     padding: 30px 50px;
     border-radius: 10px;
     gap: 50px;
+    align-items: center;
 }
 
 .message-form {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 30px;
 }
 
 .message-title {
@@ -295,5 +296,69 @@ h2 {
 form {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 30px;
+}
+
+.input {
+    position: relative;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 5px;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    background-color: #465a34;
+    border-bottom: 2px solid #e0d1a9;
+}
+
+input:focus,
+textarea:focus {
+    color: #e0d1a9;
+}
+
+span {
+    position: absolute;
+    left: 0;
+    padding: 5px;
+    font-size: 1rem;
+    color: rgb(205, 171, 59);
+    transition: 0.3s;
+}
+
+input:focus ~ span,
+input:valid ~ span,
+textarea:focus ~ span,
+textarea:valid ~ span {
+    font-size: 0.6rem;
+    transform: translateY(-1rem);
+}
+
+input[type="submit"] {
+    width: 90px;
+    background-color: #e0d1a9;
+    color: #353a36;
+    border: none;
+    padding: 8px 0;
+    border-radius: 5px;
+    font-weight: 800;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: #c9ba8d;
+}
+
+input[type="submit"]:active {
+    box-shadow: inset 2px 3px 8px #7c704c;
+    background-color: #c0af7c;
+}
+
+.original-text {
+    width: 300px;
+    height: 212px;
+    border-radius: 3px;
 }
