@@ -61,6 +61,7 @@ function createInformation() {
 
 function loadHome() {
     const main = document.querySelector('.main');
+    main.innerHTML = '';
     const description = createDescription();
     const information = createInformation();
     setActiveBtn();

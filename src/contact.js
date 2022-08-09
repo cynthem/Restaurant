@@ -79,6 +79,7 @@ function createContactPage() {
 
 function loadContact() {
     const main = document.querySelector('.main');
+    main.innerHTML = '';
     const contactPage = createContactPage();
     setActiveBtn();
     main.appendChild(contactPage);
