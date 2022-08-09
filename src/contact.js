@@ -83,9 +83,6 @@ function loadContact() {
     const contactPage = createContactPage();
     setActiveBtn();
     main.appendChild(contactPage);
-    const submitBtn = document.querySelector('input[type="submit"]');
-    const emailForm = document.querySelector('form');
-    submitBtn.addEventListener('click', () => emailForm.reset());
 }
 
 export default loadContact;
