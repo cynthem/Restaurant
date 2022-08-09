@@ -20,7 +20,45 @@ function createDescription() {
 }
 
 function createInformation() {
-    
+    const infoSection = document.createElement('div');
+    infoSection.classList.add('bottom-section');
+    const address = document.createElement('div');
+    address.classList.add('address');
+    const addIcon = document.createElement('i');
+    addIcon.classList.add('fa-solid', 'fa-location-dot', 'fa-lg');
+    const addText = document.createElement('p');
+    addText.textContent = 'Upstairs 115 West 49th St, New York City';
+    address.appendChild(addIcon);
+    address.appendChild(addText);
+    const hours = document.createElement('div');
+    hours.classList.add('hours');
+    const hoursIcon = document.createElement('i');
+    hoursIcon.classList.add('fa-solid', 'fa-clock', 'fa-lg');
+    const hoursText = document.createElement('div');
+    hoursText.classList.add('hours-text');
+    const hoursPOne = document.createElement('p');
+    hoursPOne.textContent = 'Monday to Wednesday 12:30pm to 9pm';
+    const hoursPTwo = document.createElement('p');
+    hoursPTwo.textContent = 'Thursday to Saturday 12:30pm to 11pm';
+    const hoursPThree = document.createElement('p');
+    hoursPThree.textContent = 'Sunday 12pm to 8:30pm';
+    hoursText.appendChild(hoursPOne);
+    hoursText.appendChild(hoursPTwo);
+    hoursText.appendChild(hoursPThree);
+    hours.appendChild(hoursIcon);
+    hours.appendChild(hoursText);
+    infoSection.appendChild(address);
+    infoSection.appendChild(hours);
+    return infoSection;
 }
 
-function loadHome() {}
+function setActiveBtn() {
+    const activeBtn = document.getElementById('active');
+    if (activeBtn) activeBtn.removeAttribute('id');
+    const homeBtn = document.querySelector('.home-link');
+    homeBtn.setAttribute('id', 'active');
+}
+
+function loadHome() {
+    
+}
