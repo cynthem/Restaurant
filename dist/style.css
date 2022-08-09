@@ -203,6 +203,7 @@ h2 {
     flex-direction: column;
     justify-content: space-between;
     margin-top: -70px;
+    gap: 30px;
 }
 
 .contact-title {
@@ -215,7 +216,7 @@ h2 {
     text-align: center;
     font-style: normal;
     font-weight: 400;
-    font-size: 36px;
+    font-size: 40px;
 }
 
 .spaghetti {
@@ -225,3 +226,24 @@ h2 {
     border-radius: 5px;
 }
 
+.contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.zia-logo,
+.teresa-logo {
+    font-size: 65px;
+    padding: 0;
+}
+
+.zia-logo {
+    padding-left: 100px;
+}
+
+.teresa-logo {
+    margin-top: -50px;
+    text-align: center;
+}
