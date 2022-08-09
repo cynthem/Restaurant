@@ -108,7 +108,7 @@ body {
     font-size: 16px;
 }
 
-button:active {
+#active {
     text-decoration: underline;
 }
 
