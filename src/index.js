@@ -1,5 +1,5 @@
 import loadPage from './pageLoad';
-import loadHome from './home';
+import loadHome from './home.js';
 //import loadMenu from './menu';
 //import loadContact from './contact';
 

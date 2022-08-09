@@ -4,7 +4,9 @@
   "description": "TOP website",
   "main": "index.js",
   "scripts": {
-    "test": "what"
+    "test": "what",
+    "build": "webpack",
+    "watch": "webpack --watch"
   },
   "repository": {
     "type": "git",
