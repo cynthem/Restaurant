@@ -268,3 +268,32 @@ h2 {
     gap: 20px;
 }
 
+.contact-form {
+    display: flex;
+    justify-content: center;
+    background-color: #465a34;
+    margin: 0 auto 50px;
+    color: #e0d1a9;
+    padding: 30px 50px;
+    border-radius: 10px;
+    gap: 50px;
+}
+
+.message-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.message-title {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 28px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
