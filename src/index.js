@@ -1,7 +1,7 @@
 import loadPage from './pageLoad';
 import loadHome from './home';
-import loadMenu from './menu';
-import loadContact from './contact';
+//import loadMenu from './menu';
+//import loadContact from './contact';
 
 function navEvents() {
     const homeLink = document.querySelector('.home-link');
@@ -9,8 +9,8 @@ function navEvents() {
     const contactLink = document.querySelector('.contact-link');
 
     homeLink.addEventListener('click', loadHome);
-    menuLink.addEventListener('click', loadMenu);
-    contactLink.addEventListener('click', loadContact);
+    //menuLink.addEventListener('click', loadMenu);
+    //contactLink.addEventListener('click', loadContact);
 }
 
 function init() {
@@ -18,3 +18,5 @@ function init() {
     loadHome();
     navEvents();
 }
+
+init();
