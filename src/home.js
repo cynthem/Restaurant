@@ -1,3 +1,10 @@
+function setActiveBtn() {
+    const activeBtn = document.getElementById('active');
+    if (activeBtn) activeBtn.removeAttribute('id');
+    const homeBtn = document.querySelector('.home-link');
+    homeBtn.setAttribute('id', 'active');
+}
+
 function createDescription() {
     const description = document.createElement('div');
     description.classList.add('description');
@@ -50,13 +57,6 @@ function createInformation() {
     infoSection.appendChild(address);
     infoSection.appendChild(hours);
     return infoSection;
-}
-
-function setActiveBtn() {
-    const activeBtn = document.getElementById('active');
-    if (activeBtn) activeBtn.removeAttribute('id');
-    const homeBtn = document.querySelector('.home-link');
-    homeBtn.setAttribute('id', 'active');
 }
 
 function loadHome() {
