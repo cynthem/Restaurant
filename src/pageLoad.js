@@ -29,4 +29,24 @@ function createFooter() {
     const paragraph = document.createElement('p');
     paragraph.textContent = 'Tia Teresa © 2022 | All Rights Reserved';
     const link = document.createElement('a');
+    link.setAttribute('href', 'https://github.com/doozles411');
+    link.setAttribute('target', '_blank');
+    const icon = document.createElement('i');
+    icon.classList.add('fa-brands', 'fa-github-alt');
+    link.appendChild(icon);
+    paragraph.appendChild(link);
+    footer.appendChild(paragraph);
+    return footer;
 }
+
+function loadPage() {
+    const content = document.getElementById('content');
+    const navBar = createNavBar();
+    content.appendChild(navBar);
+    const mainSection = createMainSection();
+    content.appendChild(mainSection);
+    const footer = createFooter();
+    content.appendChild(footer);
+}
+
+export default loadPage;
