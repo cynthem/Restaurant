@@ -60,12 +60,12 @@ function setActiveBtn() {
 }
 
 function loadHome() {
-    const content = document.getElementById('content');
+    const main = document.querySelector('.main');
     const description = createDescription();
     const information = createInformation();
     setActiveBtn();
-    content.appendChild(description);
-    content.appendChild(information);
+    main.appendChild(description);
+    main.appendChild(information);
 }
 
 export default loadHome;
