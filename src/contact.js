@@ -55,7 +55,7 @@ function createContactPage() {
                     <i class="fa-solid fa-envelope fa-sm"></i>
                     <p>Message Us</p>
                 </div>
-                <form method="post" action="mailto:zia-teresa@mail.com">
+                <form method="post" action="mailto:zia-teresa@mail.com?Subject=Hello">
                     <div class="input">
                         <input type="text" required>
                         <span>Name</span>
