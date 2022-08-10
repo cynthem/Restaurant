@@ -1,6 +1,6 @@
 import loadPage from './pageLoad';
 import loadHome from './home.js';
-//import loadMenu from './menu';
+import loadMenu from './menu';
 import loadContact from './contact';
 
 function navEvents() {
@@ -9,7 +9,7 @@ function navEvents() {
     const contactLink = document.querySelector('.contact-link');
 
     homeLink.addEventListener('click', loadHome);
-    //menuLink.addEventListener('click', loadMenu);
+    menuLink.addEventListener('click', loadMenu);
     contactLink.addEventListener('click', loadContact);
 }
 
