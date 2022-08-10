@@ -3,65 +3,65 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    src: url('../resources/montserrat-font/montserrat-v25-latin-regular.eot'); /* IE9 Compat Modes */
+    src: url('./resources/montserrat-font/montserrat-v25-latin-regular.eot'); /* IE9 Compat Modes */
     src: local(''),
-         url('../resources/montserrat-font/montserrat-v25-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../resources/montserrat-font/montserrat-v25-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../resources/montserrat-font/montserrat-v25-latin-regular.woff') format('woff'), /* Modern Browsers */
-         url('../resources/montserrat-font/montserrat-v25-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../resources/montserrat-font/montserrat-v25-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
+         url('./resources/montserrat-font/montserrat-v25-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./resources/montserrat-font/montserrat-v25-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./resources/montserrat-font/montserrat-v25-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('./resources/montserrat-font/montserrat-v25-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('./resources/montserrat-font/montserrat-v25-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
 }
 /* montserrat-800 - latin */
 @font-face {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 800;
-    src: url('../resources/montserrat-font/montserrat-v25-latin-800.eot'); /* IE9 Compat Modes */
+    src: url('./resources/montserrat-font/montserrat-v25-latin-800.eot'); /* IE9 Compat Modes */
     src: local(''),
-         url('../resources/montserrat-font/montserrat-v25-latin-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../resources/montserrat-font/montserrat-v25-latin-800.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../resources/montserrat-font/montserrat-v25-latin-800.woff') format('woff'), /* Modern Browsers */
-         url('../resources/montserrat-font/montserrat-v25-latin-800.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../resources/montserrat-font/montserrat-v25-latin-800.svg#Montserrat') format('svg'); /* Legacy iOS */
+         url('./resources/montserrat-font/montserrat-v25-latin-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./resources/montserrat-font/montserrat-v25-latin-800.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./resources/montserrat-font/montserrat-v25-latin-800.woff') format('woff'), /* Modern Browsers */
+         url('./resources/montserrat-font/montserrat-v25-latin-800.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('./resources/montserrat-font/montserrat-v25-latin-800.svg#Montserrat') format('svg'); /* Legacy iOS */
 }
 /* montserrat-italic - latin */
 @font-face {
     font-family: 'Montserrat';
     font-style: italic;
     font-weight: 400;
-    src: url('../resources/montserrat-font/montserrat-v25-latin-italic.eot'); /* IE9 Compat Modes */
+    src: url('./resources/montserrat-font/montserrat-v25-latin-italic.eot'); /* IE9 Compat Modes */
     src: local(''),
-         url('../resources/montserrat-font/montserrat-v25-latin-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../resources/montserrat-font/montserrat-v25-latin-italic.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../resources/montserrat-font/montserrat-v25-latin-italic.woff') format('woff'), /* Modern Browsers */
-         url('../resources/montserrat-font/montserrat-v25-latin-italic.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../resources/montserrat-font/montserrat-v25-latin-italic.svg#Montserrat') format('svg'); /* Legacy iOS */
+         url('./resources/montserrat-font/montserrat-v25-latin-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./resources/montserrat-font/montserrat-v25-latin-italic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./resources/montserrat-font/montserrat-v25-latin-italic.woff') format('woff'), /* Modern Browsers */
+         url('./resources/montserrat-font/montserrat-v25-latin-italic.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('./resources/montserrat-font/montserrat-v25-latin-italic.svg#Montserrat') format('svg'); /* Legacy iOS */
 }
 /* montserrat-800italic - latin */
 @font-face {
     font-family: 'Montserrat';
     font-style: italic;
     font-weight: 800;
-    src: url('../resources/montserrat-font/montserrat-v25-latin-800italic.eot'); /* IE9 Compat Modes */
+    src: url('./resources/montserrat-font/montserrat-v25-latin-800italic.eot'); /* IE9 Compat Modes */
     src: local(''),
-         url('../resources/montserrat-font/montserrat-v25-latin-800italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../resources/montserrat-font/montserrat-v25-latin-800italic.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../resources/montserrat-font/montserrat-v25-latin-800italic.woff') format('woff'), /* Modern Browsers */
-         url('../resources/montserrat-font/montserrat-v25-latin-800italic.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../resources/montserrat-font/montserrat-v25-latin-800italic.svg#Montserrat') format('svg'); /* Legacy iOS */
+         url('./resources/montserrat-font/montserrat-v25-latin-800italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./resources/montserrat-font/montserrat-v25-latin-800italic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./resources/montserrat-font/montserrat-v25-latin-800italic.woff') format('woff'), /* Modern Browsers */
+         url('./resources/montserrat-font/montserrat-v25-latin-800italic.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('./resources/montserrat-font/montserrat-v25-latin-800italic.svg#Montserrat') format('svg'); /* Legacy iOS */
 }
 /* la-belle-aurore-regular - latin */
 @font-face {
     font-family: 'La Belle Aurore';
     font-style: normal;
     font-weight: 400;
-    src: url('../resources/laBelle-font/la-belle-aurore-v16-latin-regular.eot'); /* IE9 Compat Modes */
+    src: url('./resources/laBelle-font/la-belle-aurore-v16-latin-regular.eot'); /* IE9 Compat Modes */
     src: local(''),
-         url('../resources/laBelle-font/la-belle-aurore-v16-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../resources/laBelle-font/la-belle-aurore-v16-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../resources/laBelle-font/la-belle-aurore-v16-latin-regular.woff') format('woff'), /* Modern Browsers */
-         url('../resources/laBelle-font/la-belle-aurore-v16-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../resources/laBelle-font/la-belle-aurore-v16-latin-regular.svg#LaBelleAurore') format('svg'); /* Legacy iOS */
+         url('./resources/laBelle-font/la-belle-aurore-v16-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./resources/laBelle-font/la-belle-aurore-v16-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./resources/laBelle-font/la-belle-aurore-v16-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('./resources/laBelle-font/la-belle-aurore-v16-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('./resources/laBelle-font/la-belle-aurore-v16-latin-regular.svg#LaBelleAurore') format('svg'); /* Legacy iOS */
 }
 
 *,
@@ -140,7 +140,7 @@ a > i:hover {
 /* HOME PAGE */
 
 .description {
-    background-image: url('../resources/italianRestaurant.png');
+    background-image: url('./resources/italianRestaurant.png');
     background-size: cover;
     position: relative;
     height: 100%;
