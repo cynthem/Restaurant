@@ -58,15 +58,15 @@ function createContactPage() {
                 <form method="post" action="mailto:zia-teresa@mail.com?Subject=Hello">
                     <div class="input">
                         <input type="text" required>
-                        <span>Name</span>
+                        <span class="form-span">Name</span>
                     </div>
                     <div class="input">
                         <input type="email" required>
-                        <span>Email</span>
+                        <span class="form-span">Email</span>
                     </div>
                     <div class="input">
                         <textarea required></textarea>
-                        <span>Type a message...</span>
+                        <span class="form-span">Type a message...</span>
                     </div>
                     <input type="submit" value="Send">
                 </form>
