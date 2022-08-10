@@ -236,6 +236,16 @@ h3 {
     border-bottom: 1px solid rgb(148, 61, 61);
 }
 
+h4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price {
+    font-size: 14px;
+    font-weight: 400;
+}
+
 .item-1,
 .item-2,
 .item-3 {
@@ -380,7 +390,7 @@ textarea:valid {
     color: #e0d1a9;
 }
 
-span {
+.form-span {
     position: absolute;
     left: 0;
     padding: 5px;
