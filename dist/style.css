@@ -196,6 +196,25 @@ h2 {
 }
 
 
+/* MENU PAGE */
+
+.main-menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: -70px;
+    gap: 40px;
+}
+
+.main-menu > h2 {
+    grid-column: span 2;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    color: black;
+}
+
+
 /* CONTACT PAGE */
 
 .contact-main {
