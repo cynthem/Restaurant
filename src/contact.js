@@ -11,7 +11,7 @@ function createContactPage() {
     contactPage.innerHTML = `
         <div class="contact-title">
             <h2 class="contact-header">Contact Us</h1>
-            <img class="spaghetti" src="../resources/spaghetti.jpeg">
+            <img class="spaghetti" src="./resources/spaghetti.jpeg">
         </div>
         <div class="contact-map">
             <iframe 
@@ -28,7 +28,7 @@ function createContactPage() {
             <div class="contact-logo">
                 <h1 class="zia-logo">Zia</h1>
                 <h1 class="teresa-logo">Teresa</h1>
-                <img class="original" src="../resources/theOG.jpg">
+                <img class="original" src="./resources/theOG.jpg">
             </div>
             <div class="zia-info">
                 <div class="contact-address">
@@ -71,7 +71,7 @@ function createContactPage() {
                     <input type="submit" value="Send">
                 </form>
             </div>
-            <img class="original-text" src="../resources/ziaTeresa.jpeg">
+            <img class="original-text" src="./resources/ziaTeresa.jpeg">
         </div>
     `;
     return contactPage;
