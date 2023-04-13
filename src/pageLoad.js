@@ -29,7 +29,7 @@ function createFooter() {
     const paragraph = document.createElement('p');
     paragraph.textContent = 'Zia Teresa © 2022 | All Rights Reserved';
     const link = document.createElement('a');
-    link.setAttribute('href', 'https://github.com/doozles411');
+    link.setAttribute('href', 'https://github.com/cynthem');
     link.setAttribute('target', '_blank');
     const icon = document.createElement('i');
     icon.classList.add('fa-brands', 'fa-github-alt');
