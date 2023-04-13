@@ -1,7 +1,7 @@
 # Zia Teresa Restaurant
 > A static restaurant page that uses JavaScript modules to load a home page, menu page, and contact page. Other technology used includes Webpack. This project was completed as part of The Odin Project's Full Stack Javascript curriculum.
 
-Live demo [_here_](https://doozles411.github.io/Restaurant/)
+Live demo [_here_](https://cynthem.github.io/Restaurant/)
 
 ## Screenshots
 ![screencapture-file-Users-cindy-Desktop-TOP-Repos-Restaurant-dist-index-html-2022-08-10-13_54_10](https://user-images.githubusercontent.com/96557009/184018523-5cbc0860-c3d4-4131-a2d6-e38cae609bb1.png)
